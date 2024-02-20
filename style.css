@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#canvas {
+    /* height: 80vh; */
+    /* width: 80vw; */
+    width: 99.5%;
+    display: block;
+    margin: 0;
+    border:1px solid green; 
+  }
+
+button{
+    font-size: 30px;
+    padding:7px;
+    margin-right:5px ;
+    border-radius: 5px;
+    color:#fffff0    
+}
+
+.button-container{
+    margin:5px auto;
+    display:block;
+    width:20%;
+}
+
+
+button#animate{
+    background-color:#3407b99c;    
+}
+
+button#clear{
+    background-color: rgb(79, 74, 74);    
+}
+
+img{
+    display: none;
+    margin:0
+}
